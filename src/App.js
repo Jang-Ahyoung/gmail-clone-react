@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header/Header';
-
+import Sidebar from './components/SideBar/sidebar';
 function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Let's build gmail!!</h1>
+      <Sidebar />
     </div>
   );
 }
