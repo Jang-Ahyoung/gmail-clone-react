@@ -12,10 +12,9 @@ function App() {
       <Header />
       <div className="App__body">
         <Sidebar />
-
         <BrowserRouter>
           <Switch>
-            <Route path="/">
+            <Route exact path="/">
               <EmailList />
             </Route>
             <Route path="/mail">
@@ -24,7 +23,6 @@ function App() {
           </Switch>
         </BrowserRouter>
       </div>
-
     </div>
   );
 }
