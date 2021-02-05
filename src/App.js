@@ -4,15 +4,16 @@ import './App.css';
 import EmailList from './components/Email_List/EmailList';
 import Header from './components/Header/Header';
 import Mail from './components/Mail/Mail';
+import SendMail from './components/SendMail/SendMail';
 import Sidebar from './components/SideBar/sidebar';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <div className="App__body">
-        <Sidebar />
-        <BrowserRouter>
+      <BrowserRouter>
+        <div className="App__body">
+          <Sidebar />
           <Switch>
             <Route exact path="/">
               <EmailList />
@@ -21,8 +22,10 @@ function App() {
               <Mail />
             </Route>
           </Switch>
-        </BrowserRouter>
-      </div>
+        </div>
+        <SendMail />
+      </BrowserRouter>
+
     </div>
   );
 }
