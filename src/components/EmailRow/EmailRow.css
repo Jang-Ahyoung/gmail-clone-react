@@ -36,6 +36,7 @@
   padding-left: 3px;
   color: rgb(221, 220, 220);
   font-size: small;
+  font-weight: bold;
 }
 
 .emailRow__time {
