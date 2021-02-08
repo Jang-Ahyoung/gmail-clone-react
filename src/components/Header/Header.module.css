@@ -12,13 +12,14 @@
 }
 
 .header_left > img {
-  /* object-fit: contain; */
+  object-fit: contain;
   height: 80px;
   margin-left: 5px;
 }
 
 .header_middle {
   display: flex;
+  flex: 0.7;
   align-items: center;
   background-color: whitesmoke;
   padding: 10px;

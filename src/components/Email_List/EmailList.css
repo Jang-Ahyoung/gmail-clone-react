@@ -21,3 +21,16 @@
   background-color: white;
   z-index: 999;
 }
+
+.emailList__list {
+  padding-bottom: 12%;
+}
+/* chrome, safari */
+.emailList::-webkit-scrollbar {
+  display: none;
+}
+/* IE, Edge, Firefox */
+.emailList {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
