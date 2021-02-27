@@ -1,68 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<h1 align="center">📧 Gmail clone 📩</h1> 
 
-## Available Scripts
+![issue bedge](https://img.shields.io/badge/yarn-v%201.22.10-orange)
+![issue bedge](https://img.shields.io/badge/node-v%204.14.0-brightgreen)
 
-In the project directory, you can run:
 
-### `yarn start`
+> React와 firebase 활용한 google gmail clone <br /> 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🤸‍♂️ developer
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+ - [장아영](https://github.com/Jang-Ahyoung)<br /> 
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## 🏍 Demo 
+> - 구글 계정 연동 로그인 기능  <br /> 
+> - 프로필 클릭시 로그아웃 기능 구현
+> - compose 클릭하여 메일 작성 및 실시간 DB 기록
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 로그인 화면
+![image](https://user-images.githubusercontent.com/71692593/109373126-6a8c5d00-78f0-11eb-8141-54176307fa8a.PNG)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- 홈화면
+![image](https://user-images.githubusercontent.com/71692593/109373141-8b54b280-78f0-11eb-9693-47b8a82e194e.PNG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 메일 작성 팝업
+![image](https://user-images.githubusercontent.com/71692593/109372877-33697c00-78ef-11eb-9a82-ee279fe995a0.png)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## install
+`yarn`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Usage
+`yarn start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
