@@ -17,13 +17,13 @@
 > - 프로필 클릭시 로그아웃 기능 구현
 > - compose 클릭하여 메일 작성 및 실시간 DB 기록
 
-- 로그인 화면
+1. 로그인 화면
 ![image](https://user-images.githubusercontent.com/71692593/109373126-6a8c5d00-78f0-11eb-8141-54176307fa8a.PNG)
 
-- 홈화면
+2. 홈화면
 ![image](https://user-images.githubusercontent.com/71692593/109373141-8b54b280-78f0-11eb-9693-47b8a82e194e.PNG)
 
-- 메일 작성 팝업
+3. 메일 작성 팝업
 ![image](https://user-images.githubusercontent.com/71692593/109372877-33697c00-78ef-11eb-9a82-ee279fe995a0.png)
 
 
